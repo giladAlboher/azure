@@ -67,3 +67,9 @@ variable "dns_name_label" {
   type        = string
   default     = "example-containergroup"
 }
+
+variable "subscription_id" {
+  description = "Subscription ID."
+  type        = string
+  default     = "a756617e-ec13-4026-b746-05ef8c3c4fc3"
+}
